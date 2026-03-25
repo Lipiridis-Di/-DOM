@@ -1,16 +1,16 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tasks List</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="tasks">
+  <div id="tasks">
     <div class="tasks__wrapper">
-      <form class="create-task-block">
+      <form class="create-task-block" method="post">
         <input
           name="taskName"
           class="create-task-block__input default-text-input"
@@ -23,13 +23,12 @@
           class="create-task-block__button default-button"
         >
           Создать
-        </button> 
+        </button>
       </form>
       <div class="tasks-list"></div>
     </div>
   </div>
 
-
-    <script src="tasksList.js"></script> 
+  <script src="tasksList.js"></script>
 </body>
 </html>
